@@ -1,4 +1,4 @@
-# GTA UM Mod Menu
+# Synergy Framework GTA
 
 ## Description
 This is a mod menu project for GTA, developed by **xiBryan**. The original base was created by **Jordy** and converted by me for GTA. The project is unfinished and has limited features, but it includes an **Anti-Freeze** system that protects against approximately 95% of existing freezes, with contributions from **dontcry** and **Ventura**. I used this source mainly for testing, so the code is quite messy.
