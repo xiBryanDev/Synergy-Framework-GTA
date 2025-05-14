@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="vector.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="detour.cpp">
+      <Filter>PS3\detour</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler.cpp">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>ImGUI\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Native.cpp">
+      <Filter>Utils\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>ImGUI\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Utils\func</Filter>
+    </ClCompile>
+    <ClCompile Include="pad.cpp">
+      <Filter>PS3\pad</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Utils\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Patched.cpp">
+      <Filter>hooks\Patched</Filter>
+    </ClCompile>
+    <ClCompile Include="Players.cpp">
+      <Filter>ImGUI\tabs\players</Filter>
+    </ClCompile>
+    <ClCompile Include="self.cpp">
+      <Filter>ImGUI\tabs\Self</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>vars\config</Filter>
+    </ClCompile>
+    <ClCompile Include="freeze.cpp">
+      <Filter>ImGUI\tabs\freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="frz.cpp">
+      <Filter>ImGUI\tabs\players\frz</Filter>
+    </ClCompile>
+    <ClCompile Include="bryan.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="detour.h">
+      <Filter>PS3\detour</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>ImGUI\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Native.h">
+      <Filter>Utils\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>ImGUI\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Utils\func</Filter>
+    </ClInclude>
+    <ClInclude Include="pad.h">
+      <Filter>PS3\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Utils\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="easing.H">
+      <Filter>Utils\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Patched.h">
+      <Filter>hooks\Patched</Filter>
+    </ClInclude>
+    <ClInclude Include="struc.h">
+      <Filter>vars\struc</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>ImGUI\tabs\players</Filter>
+    </ClInclude>
+    <ClInclude Include="self.h">
+      <Filter>ImGUI\tabs\Self</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>vars\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freeze.h">
+      <Filter>ImGUI\tabs\freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="frz.h">
+      <Filter>ImGUI\tabs\players\frz</Filter>
+    </ClInclude>
+    <ClInclude Include="bryan.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="math">
+      <UniqueIdentifier>{a154ef42-9f22-4201-8c34-9b0e19d3a71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3">
+      <UniqueIdentifier>{433105ef-68a5-43e2-8442-a6e42102e7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\detour">
+      <UniqueIdentifier>{be14901d-31fa-42c1-9fe2-b8793c1635cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scheduler">
+      <UniqueIdentifier>{221dea0d-1288-4fb3-be8e-059cc32bf4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{98bbb92d-db73-414b-8549-34fac92fc74d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{3e4c8357-d22f-4cdd-9df8-0acd39ff41e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\menu">
+      <UniqueIdentifier>{fae8f9ec-2255-4574-b061-5c9335cabb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{cfb4b3df-dc45-44bf-997c-9c4432976cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Native">
+      <UniqueIdentifier>{76b44700-aafd-4487-9960-0a7f290ac19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\Graphics">
+      <UniqueIdentifier>{34b89a1c-3b98-41e3-8de4-b90275714392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\func">
+      <UniqueIdentifier>{279181b1-5b91-4dcb-b989-91bff28fce31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PS3\pad">
+      <UniqueIdentifier>{630df221-e1cd-435f-b4ed-3d6c31c0e904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\animation">
+      <UniqueIdentifier>{13b70615-afe6-41fc-84f2-c3add854b119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\Patched">
+      <UniqueIdentifier>{aad33b1e-c0cb-4623-ae0e-b88a0b59a233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\tabs">
+      <UniqueIdentifier>{c0ac6e65-d908-4aac-8602-8c7bb0201d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\tabs\Self">
+      <UniqueIdentifier>{3cf0dc70-8662-45f6-b7d7-3804c881e9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\tabs\players">
+      <UniqueIdentifier>{1e225933-1802-4964-b08e-d5968d467200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars">
+      <UniqueIdentifier>{bd2a446c-8488-440e-8d4c-952553be8b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars\struc">
+      <UniqueIdentifier>{b7bb163c-9ef0-4a11-af98-fc64ab104265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars\config">
+      <UniqueIdentifier>{31609029-a800-4a3c-85cb-291aedbac8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\tabs\freeze">
+      <UniqueIdentifier>{c53d97ec-8961-4723-beab-fae410c4753e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\tabs\players\frz">
+      <UniqueIdentifier>{ccc157e8-2331-4a57-b5d5-f6364f090994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encrypt">
+      <UniqueIdentifier>{8b886c05-89be-4d3d-8885-3d5665453eb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
