@@ -17,7 +17,7 @@ uint32_t read_memory(uint64_t address, void* data, size_t size);
 uint32_t write_memory(uint64_t address, void* data, size_t size);
 
 class Detour {
-public://by xiBryan 19/10/2024
+public:
     template<class T>
     Detour(uint32_t targetAddress, T(*hookFunction), bool jump = false)
     {
@@ -72,7 +72,7 @@ public://by xiBryan 19/10/2024
     {
         if (functionOpd_[0] == 0) {
      
-            return T(); // Retorna um valor padr„o
+            return T(); // Retorna um valor padr√£o
         }
         T(*originalFunction)(Params...) = reinterpret_cast<T(*)(Params...)>(functionOpd_);
         return originalFunction(parameters...);
@@ -80,7 +80,7 @@ public://by xiBryan 19/10/2024
 
     ~Detour()
     {
-        // Restaura as instruÁıes originais no endereÁo alvo, se houverem sido salvas
+        // Restaura as instru√ß√µes originais no endere√ßo alvo, se houverem sido salvas
         write_memory(this->m_targetAddress, this->originalInstructions_, sizeof(this->originalInstructions_));
     }
 
